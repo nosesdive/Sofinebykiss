@@ -474,8 +474,7 @@ h2{ border-bottom: 2px dotted #ababab; text-align:center; font-family: 'kruengpr
 
 #sidebar ul { list-style-type:circle }
 #sidebar ul li a{ color:#666; font-size:12px; text-transform:uppercase; text-decoration:none  }
-#sidebar ul li a:hover{ color:#f6abb0; text-decoration:none }
-
+#sidebar ul li a:hover, #sidebar ul li.active a{ color:#f6abb0; text-decoration:none }
 #sidebar .fb-likebox { margin-top: 30px }
 
 
