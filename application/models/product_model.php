@@ -34,6 +34,14 @@ class Product_model extends MY_Model {
 
         return true;
     }
+
+
+    function delete_preview_img($id){
+
+        parent::delete(parent::tb_prefix().'product_img', 'id=' . $id);
+
+        return true;
+    }
 	
 	
 	/*
